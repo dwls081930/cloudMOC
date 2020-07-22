@@ -1,0 +1,52 @@
+[2020-07-21 09:19:31:1760][restartedMain] INFO  com.isu.moc.web.WebApplication - Starting WebApplication on YUJINISU with PID 33220 (D:\modules-moc\module-web\build\classes\java\main started by ISU-USER in D:\modules-moc\module-web)
+[2020-07-21 09:19:31:1805][restartedMain] INFO  com.isu.moc.web.WebApplication - The following profiles are active: default
+[2020-07-21 09:19:31:1988][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-07-21 09:19:31:1989][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-07-21 09:19:33:4067][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2020-07-21 09:19:33:4216][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 132ms. Found 1 repository interfaces.
+[2020-07-21 09:19:34:5109][restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$26ac7b77] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-07-21 09:19:36:7215][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[2020-07-21 09:19:36:7246][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-21 09:19:36:7260][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2020-07-21 09:19:36:7260][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+[2020-07-21 09:19:37:7781][restartedMain] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2020-07-21 09:19:37:7797][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2020-07-21 09:19:37:7797][restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5808 ms
+[2020-07-21 09:19:37:8178][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[2020-07-21 09:19:38:8680][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[2020-07-21 09:19:38:8797][restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2020-07-21 09:19:38:8990][restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+[2020-07-21 09:19:38:8993][restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[2020-07-21 09:19:38:9564][restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[2020-07-21 09:19:39:10204][restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2020-07-21 09:19:43:14352][restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-21 09:19:43:14386][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2020-07-21 09:19:45:16145][restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-21 09:19:45:16314][restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-07-21 09:19:46:16651][restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[2020-07-21 09:19:46:17583][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-21 09:19:47:17690][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-21 09:19:47:17709][restartedMain] INFO  com.isu.moc.web.WebApplication - Started WebApplication in 17.106 seconds (JVM running for 18.108)
+[2020-07-21 09:19:47:17994][http-nio-8080-exec-10] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-07-21 09:19:47:17994][http-nio-8080-exec-10] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2020-07-21 09:19:47:18030][http-nio-8080-exec-10] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 36 ms
+[2020-07-21 09:20:04:34895][http-nio-8080-exec-7] INFO  com.isu.moc.web.HttpInterceptor - -------------------- preHandle()
+[2020-07-21 09:20:04:34899][http-nio-8080-exec-7] INFO  com.isu.moc.web.HttpInterceptor - -------------------- postHandle()
+[2020-07-21 09:20:04:34900][http-nio-8080-exec-7] INFO  com.isu.moc.web.HttpInterceptor - -------------------- afterCompletion()
+[2020-07-21 09:20:04:34901][http-nio-8080-exec-7] INFO  com.isu.moc.web.HttpInterceptor - -------------------- preHandle()
+[2020-07-21 09:20:04:34903][http-nio-8080-exec-7] INFO  com.isu.moc.web.HttpInterceptor - -------------------- postHandle()
+[2020-07-21 09:20:04:35068][http-nio-8080-exec-7] INFO  com.isu.moc.web.HttpInterceptor - -------------------- afterCompletion()
+[2020-07-21 09:20:14:45160][http-nio-8080-exec-4] INFO  com.isu.moc.web.HttpInterceptor - -------------------- preHandle()
+[2020-07-21 09:20:14:45164][http-nio-8080-exec-4] INFO  com.isu.moc.web.HttpInterceptor - -------------------- postHandle()
+[2020-07-21 09:20:14:45164][http-nio-8080-exec-4] INFO  com.isu.moc.web.HttpInterceptor - -------------------- afterCompletion()
+[2020-07-21 09:20:14:45165][http-nio-8080-exec-4] INFO  com.isu.moc.web.HttpInterceptor - -------------------- preHandle()
+[2020-07-21 09:20:14:45166][http-nio-8080-exec-4] INFO  com.isu.moc.web.HttpInterceptor - -------------------- postHandle()
+[2020-07-21 09:20:14:45171][http-nio-8080-exec-4] INFO  com.isu.moc.web.HttpInterceptor - -------------------- afterCompletion()
+[2020-07-21 09:20:34:65617][http-nio-8080-exec-5] INFO  com.isu.moc.web.HttpInterceptor - -------------------- preHandle()
+[2020-07-21 09:20:34:65618][http-nio-8080-exec-5] INFO  com.isu.moc.web.HttpInterceptor - -------------------- postHandle()
+[2020-07-21 09:20:34:65619][http-nio-8080-exec-5] INFO  com.isu.moc.web.HttpInterceptor - -------------------- afterCompletion()
+[2020-07-21 09:20:34:65620][http-nio-8080-exec-5] INFO  com.isu.moc.web.HttpInterceptor - -------------------- preHandle()
+[2020-07-21 09:20:34:65622][http-nio-8080-exec-5] INFO  com.isu.moc.web.HttpInterceptor - -------------------- postHandle()
+[2020-07-21 09:20:35:65626][http-nio-8080-exec-5] INFO  com.isu.moc.web.HttpInterceptor - -------------------- afterCompletion()

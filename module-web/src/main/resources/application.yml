@@ -1,0 +1,77 @@
+server:
+  port: 8080
+  error:
+    include-exception: true #오류 응답에 exception의 내용을 포함할지 여부 (TRUE, FALSE)
+    include-stacktrace : ALWAYS #오류 응답에 stacktrace 내용을 포함할지 여부 (ALWAYS, NEVER, ON_TRACE_PARAM)
+
+spring:
+  profiles:
+    active: default
+  mvc:
+    view:
+      prefix: /WEB-INF/view/
+      suffix: .jsp
+  datasource:
+    url: jdbc:mysql://10.30.72.27:3306/pps
+    username: pps
+    password: pps
+  jpa:
+    hibernate:
+      ddl-auto: update # 운영시에는 validate 추천
+    show-sql: true
+    format_sql: true
+logging:
+  level:
+    root: INFO
+    org:
+      hibernate:
+        SQL: DEBUG
+        TYPE: TRACE
+---
+
+spring:
+  profiles: dev
+  mvc:
+    view:
+      prefix: /WEB-INF/view/
+      suffix: .jsp
+  datasource:
+    url: jdbc:mysql://10.30.72.27:3306/pps?useUnicode=true&amp
+    username: pps
+    password: pps
+    jpa:
+      hibernate:
+        ddl-auto: update # 운영시에는 validate 추천
+      show-sql: true
+      format_sql: true
+logging:
+  level:
+    root: INFO
+    org:
+      hibernate:
+        SQL: DEBUG
+        TYPE: TRACE
+---
+
+spring:
+  profiles: test
+  mvc:
+    view:
+      prefix: /WEB-INF/view/
+      suffix: .jsp
+  datasource:
+    url: jdbc:mysql://10.30.72.27:3306/pps?useUnicode=true&amp
+    username: pps
+    password: pps
+    jpa:
+      hibernate:
+        ddl-auto: update # 운영시에는 validate 추천
+      show-sql: true
+      format_sql: true
+logging:
+  level:
+    root: INFO
+    org:
+      hibernate:
+        SQL: DEBUG
+        TYPE: TRACE

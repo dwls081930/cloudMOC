@@ -1,0 +1,178 @@
+2020-07-20 10:14:55 [INFO ] com.isu.moc.web.WebApplication - Starting WebApplication on YUJINISU with PID 8272 (D:\modules-moc\module-web\build\classes\java\main started by ISU-USER in D:\modules-moc\module-web)
+2020-07-20 10:14:55 [INFO ] com.isu.moc.web.WebApplication - The following profiles are active: default
+2020-07-20 10:14:55 [INFO ] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-20 10:14:55 [INFO ] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-20 10:14:56 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-07-20 10:14:56 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 83ms. Found 1 repository interfaces.
+2020-07-20 10:14:57 [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9ad7d14e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-20 10:15:00 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-07-20 10:15:00 [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-20 10:15:00 [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-20 10:15:00 [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-07-20 10:15:00 [INFO ] org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-07-20 10:15:00 [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-20 10:15:00 [INFO ] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5417 ms
+2020-07-20 10:15:01 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-07-20 10:15:01 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-07-20 10:15:01 [INFO ] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-07-20 10:15:01 [INFO ] org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2020-07-20 10:15:01 [INFO ] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-07-20 10:15:01 [INFO ] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-07-20 10:15:02 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-07-20 10:15:04 [INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-20 10:15:04 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-07-20 10:15:06 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-20 10:15:06 [WARN ] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-20 10:15:06 [INFO ] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-07-20 10:15:06 [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-07-20 10:15:07 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-20 10:15:07 [INFO ] com.isu.moc.web.WebApplication - Started WebApplication in 12.72 seconds (JVM running for 13.968)
+2020-07-20 10:15:24 [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-20 10:15:24 [INFO ] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-20 10:15:24 [INFO ] o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2020-07-20 10:15:24 [INFO ] c.i.moc.web.controller.WebController - Start getMember() ---------------------------------
+2020-07-20 10:15:24 [INFO ] c.i.moc.web.controller.WebController - End getMember() ---------------------------------
+2020-07-20 10:17:26 [DEBUG] o.s.boot.devtools.restart.Restarter - Creating new Restarter for thread Thread[main,5,main]
+2020-07-20 10:17:26 [DEBUG] o.s.boot.devtools.restart.Restarter - Immediately restarting application
+2020-07-20 10:17:26 [DEBUG] o.s.boot.devtools.restart.Restarter - Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@31c9a0fd
+2020-07-20 10:17:26 [DEBUG] o.s.boot.devtools.restart.Restarter - Starting application com.isu.moc.web.WebApplication with URLs [file:/D:/modules-moc/module-web/build/classes/java/main/, file:/D:/modules-moc/module-web/build/resources/main/]
+2020-07-20 10:17:27 [DEBUG] o.s.b.c.l.ClasspathLoggingApplicationListener - Application failed to start with classpath: [file:/D:/modules-moc/module-web/build/classes/java/main/, file:/D:/modules-moc/module-web/build/resources/main/]
+2020-07-20 10:17:27 [ERROR] o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [INFO]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [INFO]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:82)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:292)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:265)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:228)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:201)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:347)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.isu.moc.web.WebApplication.main(WebApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2020-07-20 10:18:03 [DEBUG] o.s.boot.devtools.restart.Restarter - Creating new Restarter for thread Thread[main,5,main]
+2020-07-20 10:18:03 [DEBUG] o.s.boot.devtools.restart.Restarter - Immediately restarting application
+2020-07-20 10:18:03 [DEBUG] o.s.boot.devtools.restart.Restarter - Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@31c9a0fd
+2020-07-20 10:18:03 [DEBUG] o.s.boot.devtools.restart.Restarter - Starting application com.isu.moc.web.WebApplication with URLs [file:/D:/modules-moc/module-web/build/classes/java/main/, file:/D:/modules-moc/module-web/build/resources/main/]
+2020-07-20 10:18:04 [DEBUG] o.s.b.c.l.ClasspathLoggingApplicationListener - Application failed to start with classpath: [file:/D:/modules-moc/module-web/build/classes/java/main/, file:/D:/modules-moc/module-web/build/resources/main/]
+2020-07-20 10:18:04 [ERROR] o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [INFO]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [INFO]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:82)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:292)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:265)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:228)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:201)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:347)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.isu.moc.web.WebApplication.main(WebApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2020-07-20 10:20:31 [INFO ] com.isu.moc.web.WebApplication - Starting WebApplication on YUJINISU with PID 3588 (D:\modules-moc\module-web\build\classes\java\main started by ISU-USER in D:\modules-moc\module-web)
+2020-07-20 10:20:31 [INFO ] com.isu.moc.web.WebApplication - The following profiles are active: default
+2020-07-20 10:20:31 [INFO ] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-20 10:20:31 [INFO ] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-20 10:20:33 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-07-20 10:20:33 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 89ms. Found 1 repository interfaces.
+2020-07-20 10:20:34 [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$32474ce8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-20 10:20:36 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-07-20 10:20:36 [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-20 10:20:36 [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-20 10:20:36 [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-07-20 10:20:36 [INFO ] org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-07-20 10:20:36 [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-20 10:20:36 [INFO ] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4932 ms
+2020-07-20 10:20:37 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-07-20 10:20:37 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-07-20 10:20:37 [INFO ] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-07-20 10:20:37 [INFO ] org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2020-07-20 10:20:37 [INFO ] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-07-20 10:20:37 [INFO ] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-07-20 10:20:38 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-07-20 10:20:41 [INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-20 10:20:41 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-07-20 10:20:42 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-20 10:20:42 [WARN ] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-20 10:20:42 [INFO ] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-07-20 10:20:43 [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-07-20 10:20:43 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-20 10:20:43 [INFO ] com.isu.moc.web.WebApplication - Started WebApplication in 12.561 seconds (JVM running for 13.512)
+2020-07-20 10:21:07 [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-20 10:21:07 [INFO ] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-20 10:21:07 [INFO ] o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2020-07-20 10:21:07 [INFO ] c.i.moc.web.controller.WebController - Start getMember() ---------------------------------
+2020-07-20 10:21:07 [INFO ] c.i.moc.web.controller.WebController - End getMember() ---------------------------------
+2020-07-20 10:23:21 [INFO ] com.isu.moc.web.WebApplication - Starting WebApplication on YUJINISU with PID 26112 (D:\modules-moc\module-web\build\classes\java\main started by ISU-USER in D:\modules-moc\module-web)
+2020-07-20 10:23:21 [INFO ] com.isu.moc.web.WebApplication - The following profiles are active: default
+2020-07-20 10:23:21 [INFO ] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-20 10:23:21 [INFO ] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-20 10:23:23 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-07-20 10:23:23 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 111ms. Found 1 repository interfaces.
+2020-07-20 10:23:24 [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fc1c3a7a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-20 10:23:26 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-07-20 10:23:27 [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-20 10:23:27 [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-20 10:23:27 [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-07-20 10:23:27 [INFO ] org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-07-20 10:23:27 [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-20 10:23:27 [INFO ] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5626 ms
+2020-07-20 10:23:27 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-07-20 10:23:28 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-07-20 10:23:28 [INFO ] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-07-20 10:23:28 [INFO ] org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2020-07-20 10:23:28 [INFO ] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-07-20 10:23:28 [INFO ] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-07-20 10:23:28 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-07-20 10:23:31 [INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-20 10:23:31 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-07-20 10:23:32 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-20 10:23:32 [WARN ] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-20 10:23:32 [INFO ] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-07-20 10:23:33 [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-07-20 10:23:33 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-20 10:23:33 [INFO ] com.isu.moc.web.WebApplication - Started WebApplication in 12.288 seconds (JVM running for 13.044)
+2020-07-20 10:24:02 [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-20 10:24:02 [INFO ] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-20 10:24:02 [INFO ] o.s.web.servlet.DispatcherServlet - Completed initialization in 20 ms
+2020-07-20 10:24:02 [INFO ] c.i.moc.web.controller.WebController - Start getMember() ---------------------------------
+2020-07-20 10:24:02 [INFO ] c.i.moc.web.controller.WebController - End getMember() ---------------------------------

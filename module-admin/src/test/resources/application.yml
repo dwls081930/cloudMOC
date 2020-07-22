@@ -1,0 +1,14 @@
+# module-admin/src/main/resources/application.yml
+
+server:
+  port: 8097
+---
+spring:
+  profiles:dev
+server:
+  port: 8098
+---
+spring:
+  profiles:stg
+server:
+  port: 8099

@@ -1,0 +1,8 @@
+rootProject.name = 'moc'
+include 'module-web'
+include 'module-api'
+include 'module-admin'
+include 'module-quartz'
+include 'module-common'
+include 'module-common'
+
